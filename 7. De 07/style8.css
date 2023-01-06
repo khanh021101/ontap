@@ -1,0 +1,38 @@
+#khung-ngoai8{
+    width: 908px;
+    height: 314px;
+    border: 2px solid #4c8c2a;
+}
+#tieu-de8 {
+    width: 908px;
+    height: 45px;
+    display: inline-block;
+    border-bottom: 1px solid #4c8c2a;
+
+
+}
+.san-pham8{
+    width: 170px;
+    height: 245px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+.anh8{
+    width: 160px;
+    height: 180px;
+}
+*{
+    font-size: 13px;
+    font-family: Tahoma;
+}
+#tieu-de8 h3{
+width: 20%;
+    height: 45px;
+    background-color: #4c8c2a;
+    margin-top: 0px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}

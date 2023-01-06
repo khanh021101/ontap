@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style7.css" type="text/css">
+</head>
+<body>
+
+<script>
+    function ktra() {
+        var x= document.getElementById("tai-khoan").value;
+        var y= document.getElementById("mat-khau").value;
+        if(x=="" || y==""){
+            alert("Bạn chưa nhập đầy đủ thông tin");
+            return false;
+        }
+    }
+</script>
+
+
+<form id="login">
+    <div id="tieude">
+        <h3>ĐĂNG NHẬP HỆ THỐNG</h3>
+    </div>
+    <img id="anh" src="user.png" alt="">
+    <div id="content">
+        <div class="form-group">
+            <label class="label7">Tài khoản</label>
+            <input class="input" name="tai-khoan" id="tai-khoan">
+        </div>
+        <div class="form-group">
+            <label class="label7">Mật khẩu</label>
+            <input class="input" type="password" name="mat-khau" id="mat-khau">
+        </div>
+        <div class="footer7">
+            <button type="submit" id="btn-dangnhap" name="btn-dangnhap" onclick="ktra()">Đăng nhập</button>
+            <button type="submit" id="btn-thoat" name="btn-thoat">Thoát</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

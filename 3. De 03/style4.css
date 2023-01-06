@@ -1,0 +1,38 @@
+*{
+    font-size: 13px;
+    font-family: Tahoma;
+}
+#khung-ngoai{
+    width: 345px;
+    height: 275px;
+    background-color: #f0f0f0;
+    border: 1px solid #1811ff;
+    box-sizing: border-box;
+}
+#tieu-de-4{
+    width: 345px;
+    height: 35px;
+    margin-left: 20px;
+}
+#btn-submit {
+    background-color: #5dce4b;
+    height: 30px;
+    margin-left: 110px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+#line{
+    border-top: 1px solid ;
+    width: 300px;
+    margin-top: -15px;
+}
+.form-group{
+    padding: 8px;
+}
+.label {
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+}

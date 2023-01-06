@@ -1,0 +1,45 @@
+
+*{
+    font-size: 14px;
+    font-family: Tahoma;
+}
+#login{
+    width: 400px;
+    height: 220px;
+    border: 2px solid #c0504e;
+
+}
+#tieude{
+    width: 400px;
+    height: 40px;
+    background-color: #c0504e;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+#btn-dangnhap{
+   background-color: #d2d2d2;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+#btn-thoat{
+    background-color: #d2d2d2;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+#anh {
+    margin-top: -30px;
+    width: 15%;
+}
+.form-group {
+    padding: 5px 50px;
+}
+.footer7 {
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.label7 {
+    padding: 0px 10px;
+    width: 30%;
+    float: left;
+}

@@ -1,0 +1,36 @@
+*{
+    font-size: 13px;
+    font-family: "Times New Roman";
+}
+.khung-ngoai-sp{
+    width: 770px;
+    height: 425px;
+}
+.tieu-de{
+    width: 770px;
+    height: 40px;
+    background-image: url("image/header_background.png");
+    color: #ffffff;
+}
+.san-pham{
+    width: 255px;
+    height: 190px;
+    display: inline-block;
+    float: left;
+}
+.image{
+    width: 115px;
+    height: 150px;
+    float: left;
+}
+.btn-gia{
+    background-color: #48adc9;
+    color: white;
+}
+.btn-chitiet{
+    background-color: #2d2d2d;
+    color: white;
+}
+.clear{
+    clear: both;
+}

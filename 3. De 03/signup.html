@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+<script type="text/javascript">
+        function checkemail() {
+            var key= document.getElementById("email").value;
+
+            // var email=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var email =  /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if(!email.test(key))
+            {
+                alert('Hay nhap dia chi email hop le: Example@gmail.com');
+                email.focus;
+                return false;
+            }
+        }
+</script>
+
+
+<form id="khung-ngoai" action="" method="post">
+<div id="tieu-de-4">
+    <h2>Create your account</h2>
+</div>
+<hr id="line">
+<div id="content">
+    <div class="form-group">
+        <label class="label">Name:</label>
+        <input class="input" type="text" name="name" id="name">
+    </div>
+    <div class="form-group">
+        <label class="label">Email:</label>
+        <input class="input" type="text" name="email" id="email">
+    </div>
+    <div class="form-group">
+        <label class="label">Username:</label>
+        <input class="input" type="text" name="username">
+    </div>
+    <div class="form-group">
+        <label class="label">Password:</label>
+        <input class="input" type="password" name="password">
+    </div>
+    <div class="form-group">
+        <label class="label">Password Again:</label>
+        <input class="input" type="password" name="password-again">
+    </div>
+    <div class="footer-content">
+        <button onclick="return checkemail()" id="btn-submit" type="submit" >Create Account</button>
+    </div>
+</div>
+</form>
+
+</body>
+</html>
