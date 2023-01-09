@@ -12,7 +12,7 @@
         <h3><b>SẢN PHẨM NỔI BẬT</b></h3>
     </div>
     <?php
-    $conn=mysqli_connect("localhost","root","milanozhuy123","de7");
+    $conn=mysqli_connect("","root","","de7");
     if(!$conn){
         die(mysqli_connect_error());
     }
@@ -22,7 +22,7 @@
     {
         echo '
             <div class="san-pham8">
-                <img class="anh8" src="'.$item['image'].'">
+                <img class="anh8" src="'.$item['anh'].'">
                 <p class="ten-sp">'.$item['name'].'</p>
                 <p class="gia-sp">Gía: '.$item['gia'].'</p>
             </div>

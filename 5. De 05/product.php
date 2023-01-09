@@ -11,7 +11,7 @@
         <h2>THẾ GIỚI LAP TOP</h2>
     </div>
     <?php
-    $conn= mysqli_connect("localhost","root","milanozhuy123","de5");
+    $conn= mysqli_connect("localhost","root","","de5");
    $sql= " select * from product";
     $result=mysqli_query($conn,$sql);
     foreach($result as $item)

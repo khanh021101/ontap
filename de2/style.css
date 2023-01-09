@@ -1,0 +1,92 @@
+*{
+	font-size: 13px;
+	font-family: Tahoma;
+}
+.khung-ngoai{
+	width: 500px;
+	height: 600px;
+	background-color: #f7f7f7;
+}
+.header-background{
+	width: 500px;
+	height: 50px;
+}
+.footer{
+	width: 350px;
+	height: 50px;
+	margin-top: 128px;
+}
+.form-group{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.form-group.infomation{
+	display: flex;
+}
+.form-group .information img{
+	position: absolute;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	margin-left: 2px;
+}
+.input{
+	width: 90%;
+	height: 20px;
+	padding: 8px 0px 8px 30px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+label
+{
+	text-align: left;
+}
+#form
+{
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background: #f7f7f7;
+    margin: 20px;
+}
+.form-bot button{
+	width: 150px;
+	height: 50px;
+	margin-top: 30px;
+	float: right;
+	margin-right: 18px;
+	
+	
+}
+.form-bot button img
+{
+	margin-top: -5px;
+	margin-left: -8px;
+}
+.footer .footer-image img
+{
+    width: 500px;
+    height: 50px;
+}
+
+.footer .footer-image .infor
+{
+    position: relative;
+    margin-top: -50px;
+    margin-right: -132px;
+    text-align: right;
+
+}
+
+.footer .footer-image .infor button
+{
+    height: 20px;
+    color: #31a7bb;
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
